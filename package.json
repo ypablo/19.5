@@ -1,9 +1,9 @@
 {
-  "name": "18.8",
+  "name": "19.5",
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "start": "http-server",
+    "start": "babel script.js --watch --out-file script-compiled.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
